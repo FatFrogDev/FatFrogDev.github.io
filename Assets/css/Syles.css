@@ -44,6 +44,49 @@ main
 {
     margin-top: 0.5%;
 }
+button
+{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.markWarning
+{
+    width: 100%;
+    height: 100%;
+    background-color: #e1df93;
+    color:#050a2b;
+    padding: 2%;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5%;
+}
+#DangerButton
+{
+    display: block;
+    padding: 2%;
+    cursor: pointer;
+    color:#ffffff;
+    border-radius: 5px;
+    border: 1px solid #ffff;
+    background-color: #FF0000;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #WarningButton
+{
+    display: block;
+    padding: 2%;
+    cursor: pointer;
+    color:#ffffff;
+    border-radius: 5px;
+    border: 1px solid #ffff;
+    background-color: #ff4400;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
 .title
 {
     font-size: 130%;
@@ -76,6 +119,45 @@ nav a
     margin-right:2.5%;
     border: 1px solid transparent;
 }
+.ProfileInfo
+{
+    display:grid;
+    width: 55%;
+    height: 100%;
+}
+.ProfileInfo input[type=text], input[type=email]
+{
+    font-family: 'roboto';
+    width: 70%;
+    height: 80%;
+    margin: 0.3%;
+    padding: 1.5%;
+    border:1px solid transparent;
+    border-radius: 5px;
+    color:#ffffff;
+    background-color: #828595;
+}
+.ProfileInfo label
+{
+    font-size: 110%;
+    display:grid;
+    width: 50%;
+    height: 100%;
+    height: auto;
+    margin: 0.5%;
+}
+
+.ProfileInfo select
+{
+    width: 70%;
+    height: 80%;
+    margin: 0.3%;
+    padding: 0.5%;
+    border:1px solid transparent;
+    border-radius: 5px;
+    color:#ffffff;
+    background-color: #828595;
+}
 #ProfileTitleLine
 {
     width: 50%;
@@ -93,38 +175,15 @@ nav a
     float: right;
     padding: 1%;
 }
-.ProfileInfo
+.ProfilePicture
 {
-    display:grid;
-    width: 55%;
-    height: 100%;
-}
-.ProfileInfo input[type=text], input[type=email]
-{
-    width: 70%;
-    height: 80%;
-    margin: 0.3%;
-    padding: 0.5%;
-    border:1px solid transparent;
-    border-radius: 5px;
-}
-.ProfileInfo select
-{
-    width: 70%;
-    height: 80%;
-    margin: 0.3%;
-    padding: 0.5%;
-    border:1px solid transparent;
-    border-radius: 5px;
-}
-.ProfileInfoLabel
-{
-    font-size: 110%;
-    display:grid;
-    width: 50%;
-    height: 100%;
-    height: auto;
-    margin: 0.5%;
+    min-width: 40%;
+    min-height: 40%;
+    max-width: 40%;
+    max-height: 40%;
+    margin: 1%;
+    border: 1px solid #ffff;
+    border-radius:50%;
 }
 .StatusTextarea
 {
@@ -141,32 +200,14 @@ nav a
     background-color: transparent;
     border-radius: 5px;
 }
+.AccountOptions
+{
+    padding: 1%;
+    display:inherit;
+    width: 50%;
+    height: 50%;
+}
 .ProfileAside p
 {
     text-align:center;
-}
-.ProfilePicture
-{
-    min-width: 40%;
-    min-height: 40%;
-    max-width: 40%;
-    max-height: 40%;
-    margin: 1%;
-    border: 1px solid #ffff;
-    border-radius:50%;
-}
-.btn {
-  border: none;
-  color: white;
-  padding: 14px 28px;
-  cursor:pointer;
-}
-select
-{
-    border-radius: 1px;
-}
-option
-{
-    border-radius: 0px;
-    background-color: none;
 }

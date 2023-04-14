@@ -59,13 +59,13 @@ nav a
 {
     padding: 1%;
     font-size: 130%;
-    color:#ffff;
+    color:#b5b5b5;
     text-decoration: none;
 }
 #NavInput 
 {
     border-radius:5px;
-    border:solid 0.05rem #ffffff;
+    border:solid 0.05rem #b5b5b5;
 }
 #ProfilePreview
 {
@@ -86,7 +86,7 @@ nav a
 }
 .ProfileAside
 {
-    width: 40%;
+    width: 45%;
     height: 100%;
     border: 1px solid transparent;
     margin-top:5.3%;
@@ -96,7 +96,7 @@ nav a
 .ProfileInfo
 {
     display:grid;
-    width: 60%;
+    width: 55%;
     height: 100%;
 }
 .ProfileInfo input[type=text], input[type=email]
@@ -136,13 +136,14 @@ nav a
     max-height: 150px;
     margin-left: 25%;
     padding: 1%;
-    color:#ffff;
-    border: 2px solid #fff;
+    color:#b5b5b5;
+    border: 1px solid #ffffff;
     background-color: transparent;
+    border-radius: 5px;
 }
 .ProfileAside p
 {
-    text-align: center;
+    text-align:center;
 }
 .ProfilePicture
 {

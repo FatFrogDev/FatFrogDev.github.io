@@ -58,6 +58,18 @@ button
     margin-bottom: 2%;
     margin-top: 2%;
 }
+.title
+{
+    font-size: 130%;
+    padding: 1%;
+    color:#ffffff;
+    text-decoration: none;
+}
+.subtitle
+{
+    color: #ffffff;
+    font-size: 130%;
+}
 .markWarning
 {
     width: 100%;
@@ -94,17 +106,6 @@ button
     margin-top: 5%;
     margin-bottom: 5%;
   }
-.title
-{
-    font-size: 130%;
-    padding: 1%;
-    color:#b5b5b5;
-    text-decoration: none;
-}
-.subtitle
-{
-    font-size: 130%;
-}
 #NavInput 
 {
     border-radius:5px;
@@ -160,7 +161,7 @@ button
 }
 #ProfileTitleLine
 {
-    width: 50%;
+    width: 60%;
     height: 1%;
     border-bottom: 0.1rem solid #ffffff;
     position:static;

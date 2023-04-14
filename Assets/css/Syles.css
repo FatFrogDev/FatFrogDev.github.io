@@ -36,6 +36,13 @@ nav
     border:solid 0.1rem transparent;
     margin-top: 2%;
 }
+nav a
+{
+    padding: 1%;
+    font-size: 130%;
+    color:#ffffff;
+    text-decoration: none;
+}
 label, legend
 {
     color:#b5b5b5;
@@ -97,13 +104,6 @@ button
 .subtitle
 {
     font-size: 130%;
-}
-nav a
-{
-    padding: 1%;
-    font-size: 130%;
-    color:#b5b5b5;
-    text-decoration: none;
 }
 #NavInput 
 {

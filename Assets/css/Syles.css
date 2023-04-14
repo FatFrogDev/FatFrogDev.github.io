@@ -93,8 +93,12 @@ button
     background-color: #FF0000;
     margin-top: 5%;
     margin-bottom: 5%;
-  }
-  #WarningButton
+}
+#DangerButton:active
+{
+    background-color: #f93737;
+}
+#WarningButton
 {
     display: block;
     padding: 2%;
@@ -105,7 +109,11 @@ button
     background-color: #ff4400;
     margin-top: 5%;
     margin-bottom: 5%;
-  }
+}
+#WarningButton:active
+{
+    background-color: #fe6730;
+}
 #NavInput 
 {
     border-radius:5px;
@@ -123,45 +131,57 @@ button
 .ProfileInfo
 {
     display:grid;
-    width: 55%;
+    width: 43.5%;
     height: 100%;
+    margin-left: 1.5%;
 }
 .ProfileInfo input[type=text], input[type=email]
 {
     font-family: 'roboto';
-    width: 70%;
-    height: 80%;
+    width: 80%;
+    height: 100%;
     margin: 0.3%;
-    padding: 1.5%;
-    border:1px solid transparent;
+    padding: 2%;
+    border:1px solid #ffffff;
     border-radius: 5px;
     color:#ffffff;
-    background-color: #828595;
+    background-color: transparent;
 }
 .ProfileInfo label
 {
-    font-size: 110%;
+    font-size: 100%;
     display:grid;
     width: 50%;
     height: 100%;
-    height: auto;
-    margin: 0.5%;
+    height: 100%;
+    margin: 1.5%;
 }
 
 .ProfileInfo select
 {
-    width: 70%;
+    width: 80%;
+    height: 100%;
+    margin-bottom: 1%;
+    padding: 1%;
+    border:1px solid #ffffff;
+    border-radius: 5px;
+    color:#ffffff;
+    background-color: transparent;
+}
+.ProfileInfo select:active
+{
+    width: 65%;
     height: 80%;
     margin: 0.3%;
     padding: 0.5%;
     border:1px solid transparent;
     border-radius: 5px;
-    color:#ffffff;
-    background-color: #828595;
+    color:transparent;
+    background-color: transparent;
 }
 #ProfileTitleLine
 {
-    width: 60%;
+    width: 50%;
     height: 1%;
     border-bottom: 0.1rem solid #ffffff;
     position:static;
@@ -169,19 +189,19 @@ button
 }
 .ProfileAside
 {
-    width: 45%;
+    width: 50%;
     height: 100%;
-    border: 1px solid transparent;
     margin-top:5.3%;
+    margin-left: 5%;
     float: right;
     padding: 1%;
 }
 .ProfilePicture
 {
-    min-width: 40%;
-    min-height: 40%;
-    max-width: 40%;
-    max-height: 40%;
+    min-width: 30%;
+    min-height: 30%;
+    max-width: 30%;
+    max-height: 30%;
     margin: 1%;
     border: 1px solid #ffff;
     border-radius:50%;

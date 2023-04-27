@@ -442,7 +442,8 @@ button:active
     position:absolute;
     background: linear-gradient(to bottom right, #183F0D, #4A853A);
     width: 25%;
-    min-height: 100vh;
+    min-height: 100%;
+    z-index: 2;
     display: flex;
     flex-direction: column;
 }
@@ -457,8 +458,9 @@ button:active
 .side-bar .li
 {
     color:#fff;
-    font-size: 100%;
+    font-size: 190%;
     padding: 3%;
+    margin: 0.5%;
     align-items: center;
 }
 .side-bar .li:hover
@@ -472,11 +474,13 @@ button:active
 .dashboard-container
 {
     height: 100%;
-    width: 75%;
+    flex-direction: column;
+    width: 100%;
     margin-left: 25%;
     background-color: transparent;
     padding: 2.5%;
     display: flex;
+    z-index: 10;
 }
 .dashboard-container .card
 {
@@ -550,6 +554,7 @@ button:active
 
 .footer
 {
+    z-index: 3;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -1077,6 +1082,8 @@ button:active
 }
 .dashboard-container
 {
+    display: flex;
+    flex-direction: row;
     height: 100%;
     width: 75%;
     margin-left: 25%;
